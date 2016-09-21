@@ -1,0 +1,22 @@
+galaxy_info:
+  author: Ian Copp
+  description: Generate a local SSH key if necessary.
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+  - name: GenericUNIX
+    versions:
+      - all
+  - name: MacOSX
+    versions:
+      - all
+  - name: GenericBSD
+    versions:
+      - all
+  - name: GenericLinux
+    versions:
+      - all
+  galaxy_tags:
+    - system
+
+dependencies: []

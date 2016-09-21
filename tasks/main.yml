@@ -1,0 +1,5 @@
+---
+- name: Generate SSH key if necessary
+  user:
+    name: "{{ ansible_user_id }}"
+    generate_ssh_key: yes
